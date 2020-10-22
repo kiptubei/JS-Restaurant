@@ -17,7 +17,7 @@ Simple restaurant homepage!
 
 ### Index Page
 
-![screenshot](assets/images/Screenshot.png)
+![screenshot](dist/assets/images/Screenshot.png)
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ Mozilla Firefox
 
 - Github: [@kiptubei](https://github.com/kiptubei)
 - Twitter: [@mjabei](https://twitter.com/mjabei)
-- Linkedin: [Mark James Kiptubei](https://www.linkedin.com/in/mark-james-k-aa875829/)
+- Linkedin: [Mark James Kiptubei](https://www.linkedin.com/in/kiptubei/)
 
 
 ## 🤝 Contributing
