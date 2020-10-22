@@ -1,4 +1,4 @@
-export const Navbar = () => {
+const Navbar = () => {
   const navbar = document.createElement('nav');
   navbar.className = 'navbar';
   navbar.id = 'navbar';
@@ -33,3 +33,5 @@ export const Navbar = () => {
 
   return navbar;
 };
+
+export default Navbar;

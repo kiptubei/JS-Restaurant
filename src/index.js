@@ -1,7 +1,7 @@
-import { Navbar } from './navbar';
-import { contact } from './contact';
-import { menu } from './menu';
-import { home } from './home';
+import Navbar from './navbar';
+import contact from './contact';
+import menu from './menu';
+import home from './home';
 
 const root = document.getElementById('content');
 const navbar = Navbar();
@@ -15,7 +15,7 @@ page.id = 'page';
 page.appendChild(home());
 root.appendChild(page);
 
-const roting = (link) => {
+const routing = (link) => {
   if (link === 'contact') {
     page.className = 'page';
     return contact();
@@ -27,10 +27,11 @@ const roting = (link) => {
 
     return menu();
   }
+  return home();
 };
 links.forEach((li) => {
   li.addEventListener('click', (e, id = li.id) => {
-    const element = roting(id);
+    const element = routing(id);
     page.innerHTML = '';
     page.appendChild(element);
   });

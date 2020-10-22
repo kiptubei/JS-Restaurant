@@ -1,4 +1,4 @@
-export const contact = () => {
+const contact = () => {
   const conatctinfo = document.createElement('div');
   conatctinfo.className = 'conatctinfo';
   conatctinfo.id = 'conatctinfo';
@@ -8,10 +8,10 @@ export const contact = () => {
   email.innerHTML = 'email : foodbazaar@gmail.com';
   conatctinfo.appendChild(email);
 
-  const phone_number = document.createElement('h2');
-  phone_number.className = 'phonenumber';
-  phone_number.innerHTML = 'Phone Number : +254720111111';
-  conatctinfo.appendChild(phone_number);
+  const phoneNumber = document.createElement('h2');
+  phoneNumber.className = 'phonenumber';
+  phoneNumber.innerHTML = 'Phone Number : +254720111111';
+  conatctinfo.appendChild(phoneNumber);
 
   const location = document.createElement('h2');
   location.className = 'location';
@@ -20,3 +20,5 @@ export const contact = () => {
 
   return conatctinfo;
 };
+
+export default contact;

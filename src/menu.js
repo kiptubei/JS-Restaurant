@@ -42,19 +42,21 @@ const createcard = (item) => {
 
   return container;
 };
-export const menu = () => {
+const menu = () => {
   const foodlist = document.createElement('div');
   foodlist.className = 'foodlist';
   foodlist.id = 'foodlist';
 
-  const foodlist_title = document.createElement('h1');
-  foodlist_title.className = 'foodlist_title';
-  foodlist_title.innerHTML = 'our list of today :';
-  foodlist_title.id = 'foodlist_title';
-  foodlist.appendChild(foodlist_title);
+  const foodlistTitle = document.createElement('h1');
+  foodlistTitle.className = 'foodlist_title';
+  foodlistTitle.innerHTML = 'our list of today :';
+  foodlistTitle.id = 'foodlist_title';
+  foodlist.appendChild(foodlistTitle);
   list.forEach((item) => {
     foodlist.appendChild(createcard(item));
   });
 
   return foodlist;
 };
+
+export default menu;
