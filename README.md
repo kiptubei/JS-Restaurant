@@ -17,7 +17,7 @@ Simple restaurant homepage!
 
 ### Index Page
 
-![screenshot](dist/assets/images/Screenshot.png)
+![screenshot](dist/assets/images/Screenshot1.png)
 
 ## Getting Started
 
